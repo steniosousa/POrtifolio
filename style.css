@@ -27,6 +27,8 @@ header{
     /* //font-family: 'Oswald', sans-serif; */
     font-family: 'Russo One', sans-serif;
     width: 100%;
+    position: fixed;
+   
 }
 
  header ul{
@@ -135,9 +137,64 @@ header{
 
 
 
+#pag4
+{
+    z-index:6 ;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/5240547/pexels-photo-5240547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position:center;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-size: cover;
+}
+#pag4 .linhaDoTempo{
+    top: 50%;
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+   border-left: 5px solid white;
+   padding-left: 20px;
+   background-color: rgba(216, 191, 216, 0.034);
+   display: flex;
+   flex-direction: row;
+   font-size: 3rem;
+   gap: 20%;
+}
+.linhaDoTempo h1{
+    color: red;
+}
+@media only screen and (max-width: 1572px){
+    #pag4 .linhaDoTempo{
+   
+   font-size: 2rem;
+   
+}
+}
+@media only screen and (max-width: 1572px){
+    #pag4 .linhaDoTempo{
+   
+        flex-direction: column;
+   
+}
+}
+
+.data{
+    animation: data .5s both;
+}
+
+@keyframes data {
+    from {top: -100%; position: absolute}
+    to {   position: relative; top: 10px;}
+  }
 
 
 
+.sumir{
+    display: none;
+}
 
 
 
