@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Russo One', sans-serif;
+}
+li {
+    list-style-type: none;
+  }
+#home{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/8721317/pexels-photo-8721317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position:center;
+
+    background-size: cover;
+    z-index: 9;
+    
+}
+header{
+    color: white;
+    margin-top: 40px;
+    /* //font-family: 'Oswald', sans-serif; */
+    font-family: 'Russo One', sans-serif;
+    width: 100%;
+}
+
+ header ul{
+    display: flex;
+    justify-content: space-around;
+}
+#home .meio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+.seta{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    background-color: rgba(216, 191, 216, 0.041);
+    padding: 5%;
+    border-radius: 50%;
+}
+.seta:hover{
+    background-color: rgba(216, 191, 216, 0.274);
+}
+
+
+
+#pag2{
+    z-index:8 ;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/7672255/pexels-photo-7672255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position:center;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-size: cover;
+}
+#pag2 .flex{
+    right: 5%;
+    bottom:5%;
+    position: absolute;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.377) ;
+    font-family: 'Russo One', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+   
+   
+}
+#pag2 .flex p{
+    width: 300px;
+    font-size: 30px;
+
+}
+
+#pag2 img{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+}
+
+#pag3{
+    z-index:7 ;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/5380603/pexels-photo-5380603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position:center;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-size: cover;
+}
+#pag3 .conteudo{
+    text-align: center;
+    color: white;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#pag3 .conteudo h1{
+  
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.conteudo ul li {
+    font-size: 2rem;
+    width: auto;
+   
+   
+}
+.conteudo ul li:last-child {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.classDeAdesao{
+    animation: mymove 1s both;
+}
+
+@keyframes mymove {
+    from {left: 0px; position: absolute}
+    to {left: -2000px;position: absolute;}
+  }
+
+
+
+
+
